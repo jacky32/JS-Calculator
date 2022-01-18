@@ -1,0 +1,62 @@
+body {
+    background-color: burlywood;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding:0;
+    min-width: 100vw;
+    min-height: 95vh;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;/* Non-prefixed version, currentlysupported by Chrome, Edge, Opera and Firefox */
+
+    font-size:1.5em;
+}
+
+#main {
+    background-color: grey;
+    border:solid 1px rgb(49, 49, 49);
+    min-width:30vw;
+    min-height: 75vh;
+    display:grid;
+    padding:15px;
+    grid-template-columns: 3fr 3fr 3fr 2fr;
+    grid-template-rows: 2fr 1fr 2fr 2fr 2fr 2fr;
+    gap:10px;
+}
+
+.button {
+    background-color:rgb(141, 141, 141);
+    border:solid 1px rgb(50,50,50);
+    min-width: 1fr;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover{
+    background-color:rgb(121,121,121);
+}
+
+#display:hover {
+    background-color:rgb(141, 141, 141);
+}
+
+#display {
+    grid-column: 1/5;
+    justify-content: flex-end;
+    padding:30px;
+}
+#enter {
+    grid-row: 5/7;
+    grid-column: 4;
+}
+
+#zero {
+    grid-column: 1/3;
+}
