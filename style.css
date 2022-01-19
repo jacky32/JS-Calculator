@@ -39,6 +39,10 @@ body {
     align-items: center;
 }
 
+.operator {
+    background-color: rgb(138,138,138);
+}
+
 .button:hover{
     background-color:rgb(121,121,121);
 }
