@@ -24,19 +24,20 @@ body {
     min-width:30vw;
     min-height: 75vh;
     display:grid;
-    padding:15px;
+    padding:16px;
     grid-template-columns: 3fr 3fr 3fr 2fr;
     grid-template-rows: 2fr 1fr 2fr 2fr 2fr 2fr;
-    gap:10px;
+    gap:6px;
+    border-radius:25px;
 }
 
 .button {
     background-color:rgb(141, 141, 141);
     border:solid 1px rgb(50,50,50);
-    min-width: 1fr;
     display:flex;
     justify-content: center;
     align-items: center;
+    border-radius:8px;
 }
 
 .operator {
@@ -52,6 +53,7 @@ body {
 }
 
 #display {
+    border-radius:18px;
     grid-column: 1/5;
     justify-content: flex-end;
     padding:30px;

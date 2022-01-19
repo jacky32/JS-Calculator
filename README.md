@@ -3,4 +3,5 @@
 Javascript calculator
 
 TODO:
-- visuals
+- visuals:
+    - highlight buttons pressed by keyboard
